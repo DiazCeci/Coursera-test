@@ -1,3 +1,7 @@
+body {
+	font-family: Georgia, Verdana, sans-serif;
+	font-size: 100%;
+}
 .row {
 	width: 100%;
 	clear:left;
@@ -11,9 +15,11 @@
 	.col-lg-1 { 
 		float: left;
 		position: relative;
-		border: 3px solid black;
+		border: 1px solid black;
 		margin: 1.5%;
 		padding: 30px;
+		background-color: #68697299;;
+		color: #151414;
 	}
 
 	.col-lg-1 {
@@ -27,9 +33,11 @@
 	.col-md-1, .col-md-2 { 
 		float: left;
 		position: relative;
-		border: 3px solid black;
+		border: 1px solid black;
 		margin: 1.5%;
 		padding: 30px;
+		background-color: #68697299;;
+		color: #151414;
 	}
 
 	.col-md-1 {
@@ -46,9 +54,11 @@
 	.col-xs-1 { 
 		float: left;
 		position: relative;
-		border: 3px solid black;
+		border: 1px solid black;
 		margin: 1.5%;
 		padding: 30px;
+		background-color: #68697299;;
+		color: #151414;
 	}
 
 	.col-xs-1 {
@@ -58,7 +68,7 @@
 
 
 .chicken {
-	background-color: yellow;
+	background-color: #ffd700;
 	width: 100px;
 	height: 30px;
 	padding: 3px;
@@ -66,13 +76,15 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	border-left:  2px solid black;
-	border-bottom: 2px solid black;
-	
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	color: black;
+	font-size: 125%;
 
 }
 .beef {
-	background-color: red;
+	background-color: #e91313;
 	width: 100px;
 	height: 30px;
 	padding: 3px;
@@ -80,12 +92,15 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	border-left:  2px solid black;
-	border-bottom: 2px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	color: black;
+	font-size: 125%;
 
 }
 .sushi {
-	background-color: green;
+	background-color: #6ced61;
 	width: 100px;
 	height: 30px;
 	padding: 3px;
@@ -93,8 +108,11 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	border-left:  2px solid black;
-	border-bottom: 2px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	color: black;
+	font-size: 125%;
 
 }
 
@@ -104,4 +122,5 @@ p{
 
 h1 {
 	text-align: center;
+	font-size: 175%;
 }
